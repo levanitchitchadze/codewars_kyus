@@ -3,15 +3,17 @@ name = "codewars-kyus"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "levanitchitchadze",email = "levan.tchitchadze@gau.edu.ge"}
+    { name = "levanitchitchadze", email = "levan.tchitchadze@gau.edu.ge" }
 ]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "pytest (>=9.0.2,<10.0.0)"
 ]
 
+
 [tool.poetry]
-packages = [{include = "codewars_kyus", from = "src"}]
+packages = [{ include = "codewars_kyus", from = "src" }]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
