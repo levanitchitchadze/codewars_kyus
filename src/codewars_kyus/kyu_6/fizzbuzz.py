@@ -31,7 +31,4 @@ def fizzbuzz(n):
         print(i)
 
 
-# Execution time: 11.3328330170 seconds
-# Execution time: 10.8832440820 seconds
-
-fizzbuzz(10000000)
+fizzbuzz(100)
