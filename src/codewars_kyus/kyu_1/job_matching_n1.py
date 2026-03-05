@@ -20,7 +20,9 @@ If either the candidate's minimum salary or the job's maximum salary is not pres
 For a valid match, the candidate's minimum salary must be less than or equal to the job's maximum salary. However, let's also include 10% wiggle room (deducted from the candidate's minimum salary) in case the candidate is a rockstar who enjoys programming on Codewars in their spare time. The company offering the job may be able to work something out.
 
 """
+from codewars_kyus.utils.execution_counter import ex_time
 
 
+@ex_time
 def job_matching(candidate, job):
     return candidate["min_salary"] * 0.9 <= job["max_salary"]

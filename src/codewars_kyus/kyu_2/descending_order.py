@@ -9,7 +9,10 @@ Input: 145263 Output: 654321
 Input: 123456789 Output: 987654321
 """
 
+from codewars_kyus.utils.execution_counter import ex_time
 
+
+@ex_time
 def descending_order(num):
     #     solution #1
     #     res=0

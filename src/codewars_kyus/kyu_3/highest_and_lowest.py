@@ -11,7 +11,10 @@ There will always be at least one number in the input string.
 Output string must be two numbers separated by a single space, and highest number is first.
 """
 
+from codewars_kyus.utils.execution_counter import ex_time
 
+
+@ex_time
 def high_and_low(numbers):
     l_n = list(map(int, numbers.split(" ")))
     return f"{max(l_n)} {min(l_n)}"
