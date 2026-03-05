@@ -29,6 +29,3 @@ def fizzbuzz(n):
             continue
 
         print(i)
-
-
-fizzbuzz(100)
